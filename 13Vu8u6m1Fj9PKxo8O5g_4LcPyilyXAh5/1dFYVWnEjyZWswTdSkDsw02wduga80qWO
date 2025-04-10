@@ -1,0 +1,9 @@
+/* Puedes dejar vacío este archivo o agregar ajustes extra */
+body {
+    scroll-behavior: smooth;
+  }
+  
+  h2 {
+    color: #2c3e50;
+  }
+  

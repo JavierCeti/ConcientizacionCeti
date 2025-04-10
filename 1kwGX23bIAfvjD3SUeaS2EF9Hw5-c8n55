@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Concientización Ambiental - CETI Tonalá</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header class="bg-success text-white py-4">
+    <div class="container d-flex align-items-center">
+      <img src="images/logo_ceti.png" alt="Logo CETI" class="me-4" style="height: 80px;">
+      <div>
+        <h1 class="h2 mb-2">🌎 ¡CETI Limpio, Futuro Brillante!</h1>
+        <p class="fs-5 mb-0">Concientización sobre residuos sólidos en el CETI Tonalá</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container my-5">
+    <section class="mb-5">
+      <h2 class="fs-3">¿Cuál es el problema?</h2>
+      <p class="fs-5">
+        Muchas personas arrojan basura en lugares como calles, patios y áreas verdes del CETI,
+        lo que causa contaminación, enfermedades y afecta el bienestar de todos.
+      </p>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="fs-3">¿Qué buscamos?</h2>
+      <p class="fs-5">
+        Promover hábitos responsables en la comunidad del CETI Tonalá para reducir la contaminación 
+        generada por residuos sólidos. ¡Tirar la basura en su lugar es el primer paso!
+      </p>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="fs-3">¿Cómo puedes ayudar?</h2>
+      <ul class="list-group list-group-flush fs-5">
+        <li class="list-group-item">🗑️ Deposita la basura en los contenedores adecuados</li>
+        <li class="list-group-item">♻️ Separa residuos reciclables y orgánicos</li>
+        <li class="list-group-item">📚 Participa en campañas de limpieza y educación ambiental</li>
+        <li class="list-group-item">📱 Responde nuestra <a href="https://forms.gle/DUY7kdiziwN5UVZQA" target="_blank">encuesta</a></li>
+      </ul>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="fs-3">Proyecto elaborado por:</h2>
+      <ul class="fs-5">
+        <li>Javier Alejandro Reynoso Ochoa</li>
+        <li>Axel Michel Onofre Álvarez</li>
+        <li>Aldo Gael Ricoy Camacho</li>
+      </ul>
+      <p class="fs-5">Materia: Medio Ambiente y Desarrollo Sustentable</p>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white text-center py-4 fs-6">
+    &copy; 2025 - CETI Plantel Tonalá | Proyecto de Concientización
+  </footer>
+</body>
+</html>
