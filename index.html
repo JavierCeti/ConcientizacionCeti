@@ -81,6 +81,32 @@
   </div>
 </section>
 
+<section class="mb-5">
+  <h2 class="fs-3">🗣️ Foro de comentarios</h2>
+  <p class="fs-5">Comparte observaciones sobre los botes de basura: ¿Está lleno? ¿Sucio? ¿Hace falta otro?</p>
+
+  <form id="foroForm" class="mb-4">
+    <div class="mb-3">
+      <label for="nombre" class="form-label">Tu nombre</label>
+      <input type="text" class="form-control" id="nombre" placeholder="Ej. Juan Pérez" required>
+    </div>
+    <div class="mb-3">
+      <label for="ubicacion" class="form-label">Ubicación del bote</label>
+      <input type="text" class="form-control" id="ubicacion" placeholder="Ej. Edificio C - pasillo exterior" required>
+    </div>
+    <div class="mb-3">
+      <label for="comentario" class="form-label">Comentario</label>
+      <textarea class="form-control" id="comentario" rows="4" placeholder="Escribe aquí tu observación..." required></textarea>
+    </div>
+    <button type="submit" class="btn btn-success">Enviar comentario</button>
+  </form>
+
+  <div id="comentarios" class="mt-4">
+    <h3 class="fs-4">Comentarios recientes</h3>
+    <!-- Aquí se cargarán dinámicamente los comentarios -->
+  </div>
+</section>
+
     <section class="mb-5">
       <h2 class="fs-3">Proyecto elaborado por:</h2>
       <ul class="fs-5">
