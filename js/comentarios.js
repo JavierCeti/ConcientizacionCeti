@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
+  const API_URL = 'http://144.217.65.99:8009';
+
   const form = document.getElementById('foroForm');
   const comentariosDiv = document.getElementById('comentarios');
 
@@ -12,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
     };
 
     try {
-      const res = await fetch('http://localhost:8009/comentarios', {
+      const res = await fetch(`${API_URL}/comentarios`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data)
@@ -29,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   async function cargarComentarios() {
     try {
-      const res = await fetch('http://localhost:8009/comentarios');
+      const res = await fetch(`${API_URL}/comentarios`);
       if (!res.ok) throw new Error('Error al cargar comentarios');
 
       const comentarios = await res.json();
